@@ -30,7 +30,7 @@ pipeline {
 
       steps {
 
-      	sh 'docker build -t santhoshrakuten /spring-petclinic:latest .'
+      	sh 'docker build -t santhoshrakuten/spring-petclinic:latest .'
 
       }
 
